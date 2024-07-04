@@ -1,0 +1,3 @@
+[submodule "localbuild/sui"]
+	path = localbuild/sui
+	url = https://github.com/MystenLabs/sui
