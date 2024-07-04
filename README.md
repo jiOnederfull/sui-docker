@@ -23,3 +23,19 @@ sui-docker
 
 ## Locally
 - If you want to build `sui-node` locally, follow the link: [localbuild](https://github.com/jiOnederfull/sui-docker/tree/main/localbuild)
+
+## Using Docker
+- If you want to build `sui-node` using docker, follow the link: [dockerbuild](https://github.com/jiOnederfull/sui-docker/tree/main/dockerbuild)
+
+## Test metrics
+```
+curl localhost:9184/metrics
+```
+
+## Test RPC Query
+```
+curl ${ENDPOINT} \
+--request POST \
+--header "Content-Type: application/json" \
+--data '{ "jsonrpc": "2.0", "method": "rpc.discover", "id": 1 }'
+```

@@ -22,7 +22,7 @@ docker stop sui-localbuild
 
 ## Build sui-node
 ```
-git clone https://github.com/jiOnederfull/sui-docker
+git clone --recurse-submodules https://github.com/jiOnederfull/sui-docker
 ```
 ```
 cd sui-docker/localbuild
